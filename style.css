@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.myName {
+  color: orange;
+}
+.btn {
+  background-image: linear-gradient(red, yellow);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.top-banner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
